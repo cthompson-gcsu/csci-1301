@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T14:46:02.638Z" agent="5.0 (Windows)" etag="LSaW5bABOai-MApxHGXm" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T14:46:56.682Z" agent="5.0 (Windows)" etag="-57kcBNwW0siqCgiXL2u" version="20.5.3" type="github">
   <diagram id="nmucT5yErx1RBIytcvga" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UAF766h70X7E19xK34wO-5" value="BankAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="180" width="320" height="164" as="geometry" />
+          <mxGeometry x="265" y="100" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="UAF766h70X7E19xK34wO-6" value="- accountNo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UAF766h70X7E19xK34wO-5" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
@@ -16,14 +16,17 @@
         <mxCell id="UAF766h70X7E19xK34wO-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="UAF766h70X7E19xK34wO-5" vertex="1">
           <mxGeometry y="78" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="UAF766h70X7E19xK34wO-8" value="+ withdraw(amount: double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UAF766h70X7E19xK34wO-5" vertex="1">
+        <mxCell id="ZQeFroASfs9uK_yc2qsd-4" value="+ BankAccount(String accountNo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UAF766h70X7E19xK34wO-5">
           <mxGeometry y="86" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZQeFroASfs9uK_yc2qsd-2" value="+ deposit(amount: double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UAF766h70X7E19xK34wO-5">
+        <mxCell id="UAF766h70X7E19xK34wO-8" value="+ withdraw(amount: double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UAF766h70X7E19xK34wO-5" vertex="1">
           <mxGeometry y="112" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZQeFroASfs9uK_yc2qsd-3" value="+ getBalance(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UAF766h70X7E19xK34wO-5">
+        <mxCell id="ZQeFroASfs9uK_yc2qsd-2" value="+ deposit(amount: double): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UAF766h70X7E19xK34wO-5">
           <mxGeometry y="138" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQeFroASfs9uK_yc2qsd-3" value="+ getBalance(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UAF766h70X7E19xK34wO-5">
+          <mxGeometry y="164" width="320" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
